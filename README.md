@@ -1,6 +1,6 @@
 # Leerstandsmelder API Client
 
-[![Dependency Status](https://gemnasium.com/Leerstandsmelder/node-leerstandsmelder-apiclient.svg)](https://gemnasium.com/Leerstandsmelder/node-leerstandsmelder-apiclient) [![bitHound Code](https://www.bithound.io/github/Leerstandsmelder/leerstandsmelder-angular-frontend/badges/code.svg)](https://www.bithound.io/github/Leerstandsmelder/leerstandsmelder-angular-frontend) [![bitHound Code](https://www.bithound.io/github/Leerstandsmelder/node-leerstandsmelder-apiclient/badges/code.svg)](https://www.bithound.io/github/Leerstandsmelder/node-leerstandsmelder-apiclient) 
+[![Dependency Status](https://gemnasium.com/Leerstandsmelder/node-leerstandsmelder-apiclient.svg)](https://gemnasium.com/Leerstandsmelder/node-leerstandsmelder-apiclient) [![bitHound Code](https://www.bithound.io/github/Leerstandsmelder/node-leerstandsmelder-apiclient/badges/code.svg)](https://www.bithound.io/github/Leerstandsmelder/node-leerstandsmelder-apiclient) 
 
 A javascript client for the [Leerstandsmelder API](https://github.com/Leerstandsmelder/leerstandsmelder-node-api) (Node & Browser)
 
