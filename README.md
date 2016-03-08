@@ -1,6 +1,6 @@
 # Leerstandsmelder API Client
 
-A javascript client for the [Leerstandsmelder API](https://bitbucket.org/ito-suite/leerstandsmelder-api) (Node & Browser)
+A javascript client for the [Leerstandsmelder API](https://github.com/Leerstandsmelder/leerstandsmelder-node-api) (Node & Browser)
 
 ## Stability
 
@@ -11,6 +11,8 @@ Unstable: Expect patches and features, possible api changes.
 Both implementations only differ in the setup procedure. Other than that they work identically. (Side note: progress is not yet implemented in the node version.)
 
 ### NodeJS
+
+Use ``npm install leerstandsmelder-apiclient`` to install.
 
 ```javascript
 var apiConfig = {
@@ -24,6 +26,8 @@ var apiClient = require('leerstandsmelder-apiclient')(apiConfig);
 ```
 
 ### Browser
+
+Download repo, clone or use ``bower install leerstandsmelder-apiclient`` to install.
 
 To use the client in the browser, include either `dist/leerstandsmelder-apiclient.web.js` or `dist/leerstandsmelder-apiclient.web.min.js`.
 
