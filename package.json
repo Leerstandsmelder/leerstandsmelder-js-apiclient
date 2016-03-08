@@ -1,0 +1,32 @@
+{
+  "name": "leerstandsmelder-apiclient",
+  "version": "0.1.0",
+  "description": "JavaScript API Client for the Leerstandsmelder API",
+  "main": "src/node-leerstandsmelder-apiclient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Leerstandsmelder/node-leerstandsmelder-apiclient.git"
+  },
+  "keywords": [
+    "api",
+    "client",
+    "leerstandsmelder"
+  ],
+  "author": "Anton Koch <anton@das-gaengeviertel.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leerstandsmelder/node-leerstandsmelder-apiclient/issues"
+  },
+  "homepage": "https://github.com/Leerstandsmelder/node-leerstandsmelder-apiclient",
+  "devDependencies": {
+    "gluejs": "^2.3.9",
+    "gulp": "^3.9.0",
+    "gulp-header": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "stability": "unstable"
+}

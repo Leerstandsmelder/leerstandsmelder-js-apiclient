@@ -1,0 +1,23 @@
+{
+  "name": "leerstandsmelder-apiclient",
+  "version": "0.1.0",
+  "authors": [
+    "Anton Koch <anton@das-gaengeviertel.info>"
+  ],
+  "description": "JavaScript API client for the Leerstandsmelder API",
+  "main": "dist/leerstandsmelder-apiclient-web.min.js",
+  "keywords": [
+    "api",
+    "client",
+    "leerstandsmelder"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Leerstandsmelder/node-leerstandsmelder-apiclient",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
