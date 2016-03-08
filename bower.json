@@ -2,7 +2,7 @@
   "name": "leerstandsmelder-apiclient",
   "version": "0.1.0",
   "authors": [
-    "Anton Koch <anton@das-gaengeviertel.info>"
+    "Gängeviertel e.V. <info@das-gaengeviertel.info>"
   ],
   "description": "JavaScript API client for the Leerstandsmelder API",
   "main": "dist/leerstandsmelder-apiclient-web.min.js",

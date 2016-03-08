@@ -15,7 +15,7 @@
     "client",
     "leerstandsmelder"
   ],
-  "author": "Anton Koch <anton@das-gaengeviertel.info>",
+  "author": "Gängeviertel e.V. <info@das-gaengeviertel.info>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Leerstandsmelder/node-leerstandsmelder-apiclient/issues"
