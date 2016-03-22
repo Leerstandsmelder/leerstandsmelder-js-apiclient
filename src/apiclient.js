@@ -52,10 +52,11 @@
                             },
                             function (err, result) {
                                 if (typeof callback === 'function') {
-                                    if (err) {
-                                        return callback(err, null);
-                                    }
-                                    parser.parse(result, config.contentType, function (err, object) {
+                                    parser.parse(result, config.contentType, function (parse_err, object) {
+                                        if (err && object) {
+                                            err.message = object.message;
+                                            err.errors = object.errors;
+                                        }
                                         callback(err, object);
                                     });
                                 }
