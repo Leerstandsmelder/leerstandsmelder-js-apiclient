@@ -119,8 +119,17 @@
                 );
             },
             setCredentials: function (apiKey, apiSecret) {
-                config.api_key.key = apiKey;
-                config.api_key.secret = apiSecret;
+                config.api_key = {
+                    key: apiKey,
+                    secret: apiSecret
+                };
+                return config.api_key;
+            },
+            setAccessToken: function (access_token) {
+                config.access_token = {
+                    token: access_token.token
+                };
+                return config.access_token;
             },
             authenticate: function (callback) {
                 if (config.access_token) {
