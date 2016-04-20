@@ -31,9 +31,8 @@ r.m[0] = {
                             data = null;
                         } else if (typeof data === 'object' && typeof data.uuid === 'string') {
                             if (method.toLowerCase() !== 'post') {
-                                // check if resource object contains id
+                                // add resource id to path
                                 path += '/' + data.uuid;
-                                delete data.uuid;
                             }
                         }
                         var queryString = '';
