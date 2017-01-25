@@ -106,6 +106,7 @@
                                 return callback(err, null);
                             }
                             parser.parse(result, config.contentType, function (err, api_keys) {
+                                api_keys = api_keys.results || api_keys;
                                 if (!config.api_key) {
                                     config.api_key = {};
                                 }
