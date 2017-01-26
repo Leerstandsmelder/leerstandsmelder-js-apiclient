@@ -1,5 +1,6 @@
 # Leerstandsmelder API Client
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da9bb490ca7d42b49a880bf13292a607)](https://www.codacy.com/app/dasantonym/node-leerstandsmelder-apiclient?utm_source=github.com&utm_medium=referral&utm_content=Leerstandsmelder/node-leerstandsmelder-apiclient&utm_campaign=badger)
 [![Dependency Status](https://gemnasium.com/Leerstandsmelder/node-leerstandsmelder-apiclient.svg)](https://gemnasium.com/Leerstandsmelder/node-leerstandsmelder-apiclient) [![bitHound Code](https://www.bithound.io/github/Leerstandsmelder/node-leerstandsmelder-apiclient/badges/code.svg)](https://www.bithound.io/github/Leerstandsmelder/node-leerstandsmelder-apiclient) 
 
 A javascript client for the [Leerstandsmelder API](https://github.com/Leerstandsmelder/leerstandsmelder-node-api) (Node & Browser)
